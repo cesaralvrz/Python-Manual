@@ -112,7 +112,7 @@ There’s also the modulates operator present with the /‘%’/ , this operatio
 /1/
 
 You can print variables that contain numbers.
-```
+```py
 number = 23
 print(number) 
 ```
@@ -161,7 +161,7 @@ When you want to input a number, the machine will consider it a string. For you 
 `float(number)`
 
 In this code we asked the user to introduce two number (num1 & num2) after that we added both number. Finally we print the result of this operation:
-```
+```py
 num1 = input("Enter the first number: ")
 num2 = input("Enter the second number: ")
 result = int(num1) + int(num2)
@@ -207,7 +207,7 @@ Here we will show you the most common and the most popular functions. To make li
 * The first function you will learn is the /extend/ function, this function will combine two lists together.
 
 Here we will combine the list /“names”/ with the list of /“colors”/:
-```
+```py
 names = ["John", "Max", "Will"]
 colors = ["Green", "Blue", "White"]
 names.extend(colors)
@@ -249,7 +249,7 @@ Here we will count how many time the color /“blue”/ appears in the list of /
 
 * There’s also a function to order the values in alphabetical or numerical (depending of the values) order. With the /order/ function.
 Here we will order the /“colors”/ list in alphabetical order:
-```
+```py
 colors.sort()
 print(colors)
 ```
@@ -290,7 +290,7 @@ Just as we already seen before functions are basically a collection of code whic
 For indicating a function we write /def/ before the name we want to give to the function.
 
 Here we will create a function that says hi to use:
-```
+```py
 def say_hello():
 		print("Hello User")
 ```
@@ -303,7 +303,7 @@ Here we will call our function:
 
 To make this functions more powerful, we can give them information. This information is called /parameters/. 
 Here we ask the user to include a parameter /“name”/ of the user:
-```
+```py
 def say_hello(name):
 		print("Hello " + name)
 
@@ -313,7 +313,7 @@ say_hello("John")
 
 You can include as much parameters as you want.
 Here we will add also the parameter /“age”/:
-```
+```py
 def say_hello(name, age):
 		print("Hello " + name + ", you are " + age)
 
@@ -327,7 +327,7 @@ say_hello("John", "25")
 Sometimes when we call a function we’re actually going to want to get information back from that function. That’s when the /return/ keyword can comes handy. The /return function/ can allow us to return back a value.
 
 Here we will create a function to make the cube of a number:
-```
+```py
 def cube(num):
     num*num*num
 
@@ -337,7 +337,7 @@ print(cube(3))
 /None/ <- We don’t get the value that we want
 
 For getting the value that we want to print we need to use the /return statement/ in the equation:
-```
+```py
 def cube(num):
     return num*num*num
 
@@ -347,7 +347,7 @@ print(cube(3))
 /27/ <- Now we can see that we get the value that we want
 
 We can also store the results in a variable:
-```
+```py
 def cube(num):
     return num*num*num
 
@@ -362,7 +362,7 @@ print(result)
 If statements are a special structure inside Python, where we can help our programs make decisions. So by using the if statement We can execute certain code when conditions are true and execute other code when other conditions are true. So basically statements allow our program to the input that they are given. 
 
 Here we will have an example, We create a boolean that gives a true value that we are a male, then with an /if statement/ if “is_male” is true we will get the print text:
-```
+```py
 is_male = True
 
 if is_male:
@@ -371,7 +371,7 @@ if is_male:
 /You are a male/
 
 If we change “is_male” to False we will not get the text because the if statement only works when “is_male” is /True/:
-```
+```py
 is_male = False
 
 if is_male:
@@ -379,7 +379,7 @@ if is_male:
 ```
 
 But if we add an else function when “is_male” gives a /False/ value:
-```
+```py
 is_male = False
 
 if is_male:
@@ -390,7 +390,7 @@ else:
 /You are not a male/
 
 We can add more than one condition in our /if statement/ with adding an *“or”* operator in the condition. In this example we will add also the possibility to be tall.
-```
+```py
 is_male = False
 is_tall = True
 
@@ -402,7 +402,7 @@ else:
 /You are a male or tall/ <- We got the first message because it had a least one condition that we asked for (is_tall = true).
 
 We can also add the *“and*” operator. It works similar to the “or” operator but in this case _both_ conditions have to be True. 
-```
+```py
 is_male = False
 is_tall = True
 
@@ -416,7 +416,7 @@ else:
 There’s also another keyword in Python called else if written /“elif”/. This keyword is used as another possibility when our first if condition is not true.
 
 Here we will create an else if condition for males that are not tall:
-```
+```py
 is_male = True
 is_tall = False
 
@@ -430,7 +430,7 @@ else:
 /You are a short male/
 
 Here we will finish all the possible conditions from this two variables in this code:
-```
+```py
 is_male = False
 is_tall = True
 
@@ -459,7 +459,7 @@ Comparators that can be used:
 * `!=` (Not Equal)
 
 In this case we’re going to compare different numbers. And it will give us the maximum number that we pass to the program, this function will take three parameters as input and going to print out the biggest number:
-```
+```py
 def max_num(num1, num2, num3):
     if num1 >= num2 and num1 >= num3:
         return num1
@@ -473,7 +473,7 @@ print(max_num(1, 2, 3))
 /3/ <- “3” was the biggest number given
 
 Now we are going to create a more advance calculator,  we will ask the user to input two values and a operator:
-```
+```py
 num1 = float(input("Enter the first number: "))
 op = input("Enter the operator: ")
 num2 = float(input("Enter the first number: "))
@@ -498,7 +498,7 @@ A dictionary is a special structure in Python which allow us to store informatio
 *Note:* We can’t have duplicate keys.
 
 Here we will create a program to transform a three digit month date name to a full month name (Ex: Jan(key) -> January(value) ), between each key value pair we need to add a coma /,/ :
-```
+```py
 month_conversions = {
     "Jan": "January",
     "Feb": "February",
@@ -524,7 +524,7 @@ We can also us the /get function/ to get the values:
 /September/
 
 *Keys can also be numbers*, in this case we can associate the month to an individual number:
-```
+```py
 month_conversions = {
     1: "January",
     2: "February",
@@ -547,7 +547,7 @@ month_conversions = {
 A while loop is basically a structure in Python which allows us to loop through and execute a block of code multiple times. So you can specify a part of a code to loop through that code executing it repeatedly until certain condition was false. 
 
 In this example we will create a loop where it will print the value of /“i”/ and after printing it, /“i”/ will increase by 1. Here the condition will be to less or equal to 3, this mean that when the value of /“i”/ reaches 4 the loop will stop:
-```
+```py
 i = 1
 
 while i <= 3:
@@ -559,7 +559,7 @@ while i <= 3:
 /3/
 
 Now we will create a guessing game using the while loop:
-```
+```py
 secret_word = "Python"
 guess = ""
 
@@ -570,7 +570,7 @@ print("CORRECT, You win! ")
 ```
 
 This code we can apply something to make it more complex, we will add a limit of guesses (3) and if the user doesn’t guess it in this 3 chances they lose the game:
-```
+```py
 secret_word = "Python"
 guess = ""
 guess_count = 0
@@ -595,7 +595,7 @@ else:
 A for loop is a special type of loop in Python which allows us  to loop over different collections of items. So a lot of times we will use for loops to loop through different arrays, loop over the letters inside a string or we could just loop through like a series of numbers. So for loops provide a very specific purpose.  
 
 Here we will show a simply example of how a /for loop/ works, we will specify we want to print each letter from the word given (in this case “Python”):
-```
+```py
 for letter in "Python":
     print(letter)
 ```
@@ -607,7 +607,7 @@ for letter in "Python":
 /n/
 
 *Note:* the variable /“letter”/ can be named whatever you want, it can perfectly be /“index”/ and it will work exactly the same. Example:
-```
+```py
 for index in "Hey":
     print(index)
 ```
@@ -616,7 +616,7 @@ for index in "Hey":
 /y/
 
 We can also create an array and print every single value inside that array:
-```
+```py
 directors = ["Martin", "Chris", "David"]
 
 for director in directors:
@@ -627,7 +627,7 @@ for director in directors:
 /David/
 
 There’s also the possibility print number, here we will give a specific range and it will give the values inside that range:
-```
+```py
 for index in range(3, 6):
     print(index)
 ```
@@ -636,7 +636,7 @@ for index in range(3, 6):
 /5/
 
 Now using the for loop we will create a /exponent function/, we will give the base number (2) and the exponent number (3):
-```
+```py
 def raise_to_power (base_num, pow_num):
     result = 1
     for index in range(pow_num):
@@ -650,7 +650,7 @@ print(raise_to_power(2, 3))
 
 ## 2D Lists and Nested Loops
  The concept of 2D is simply a list inside another list, for example here we will create a grid:
-```
+```py
 number_grid = [
     [1, 2, 3],
     [4, 5, 6],
@@ -664,7 +664,7 @@ We can print each individual value from of the grid, in the first square bracket
 /2/
 
 Nested loops are basically the same concept, but in this case there’s a for loop inside another for loop. Here we explain how to print every single value from the 2D list with a nested loop:
-```
+```py
 number_grid = [
     [1, 2, 3],
     [4, 5, 6],
@@ -689,7 +689,7 @@ Comments are special lines in the code that are not going to be rendered by Pyth
 A lot of time when we’re writing code in Python programs you’ll encounter errors, so different situations will come up and your program might throw an error or it might through an exception, and a lot of times when these situations happen through completely stop your program from running. But what you can actually do is watch out for a certain specific errors that are going to pop up in our program and we can actually handle them. So instead of our program just breaking and stop executing, we can handle those errors and do things when they occur so. 
 
 For example, take a look at this code:
-```
+```py
 # We ask the user to introduce an number, then we will convert to an int
 number = int(input("Enter a number: "))
 
@@ -702,7 +702,7 @@ Everything is okay, right? But what happens if the user introduces a letter inst
 This situations happened a lot, to prevent this we can handle it with the /try / except/ block, this will basically allow your programs to try out a piece of code, and if something goes wrong we can account on that.  
 
 We will use the same code previously shown, but we will include a Error message if the user doesn’t input a valid value (a number) with the Try / Except block:
-```
+```py
 try:
     number = int(input("Enter a number: "))
     print(number)
@@ -711,7 +711,7 @@ except:
 ```
 
 We can also create multiple excepts in the code when we specify the error that we are excepting, here we will add a division by 0 (That is no possible) and then create to different excepts:
-```
+```py
 try:
     value = 10/0
     number = int(input("Enter a number: "))
@@ -724,7 +724,7 @@ except ValueError:
 Now each of the errors has it's own message.
 
 One more important thing to know, is to store the error as variable and then the program will print what’s the problem:
-```
+```py
 try:
     value = 10/0
     number = int(input("Enter a number: "))
