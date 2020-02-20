@@ -47,7 +47,7 @@ Important things to remember when you’re working with /Strings/:
 We can also use something call *concatenation*.
 This is basically the process of taking a string and appending another string into it.
 
-```
+```py
 phrase = "Learning Python"
 print(phrase + "is easy.")
 ```
