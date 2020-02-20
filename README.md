@@ -1,6 +1,7 @@
 # Python-Manual
-Manual of the Basics of Python - By César Álvarez Llaneza
+
 ![](img/ManualPython.png)
+Manual of the Basics of Python - By César Álvarez Llaneza
 
 
 ## Your First Hello World
