@@ -451,9 +451,9 @@ else:
 Now we are going to see how to use comparisons in Python using if statements. We are going to look at another way to use if statements. Instead of using boolean variables we can actually compare different values.
 
 Comparators that can be used:
-* > (Greater)
+* >> (Greater)
 * <  (Less)
-* >= (Greater or equal)
+* >>= (Greater or equal)
 * <= (Less or equal)
 * == (Equal)
 * != (Not Equal)
