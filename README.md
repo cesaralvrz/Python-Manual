@@ -451,12 +451,12 @@ else:
 Now we are going to see how to use comparisons in Python using if statements. We are going to look at another way to use if statements. Instead of using boolean variables we can actually compare different values.
 
 Comparators that can be used:
-* >> (Greater)
-* <  (Less)
-* >>= (Greater or equal)
-* <= (Less or equal)
-* == (Equal)
-* != (Not Equal)
+* `>` (Greater)
+* `<`  (Less)
+* `>=` (Greater or equal)
+* `<=` (Less or equal)
+* `==` (Equal)
+* `!=` (Not Equal)
 
 In this case we’re going to compare different numbers. And it will give us the maximum number that we pass to the program, this function will take three parameters as input and going to print out the biggest number:
 ```
