@@ -257,7 +257,7 @@ print(colors)
 
 The /reverse/ function does exactly the opposite, from last to first.
 Here we will reverse the /“colors”/ list in alphabetical order:
-```
+```py
 colors.reverse()
 print(colors)
 ```
