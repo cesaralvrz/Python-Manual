@@ -9,7 +9,7 @@ The first thing you learn when you start a new programming language if your firs
 Use print to show a text.  Inside the parentheses and citations we introduce the text that you want to show. 
 
 `print(‘Hello World’)`
-`Hello World`
+/Hello World/
 
 *NOTE:* We can use “ ” or ‘ ’ it works the same:
 `print("Hello World")`
