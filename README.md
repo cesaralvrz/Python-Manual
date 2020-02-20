@@ -70,6 +70,7 @@ If you type /‘.’/ after the variable you will get selection of functions.
 
 For example:
  `print(phrase.lower())` -> will show the text in lower case.
+ 
  `print(phrase.islower())` -> will get a FALSE value.
 
 We can also use this functions in combination with each other.
