@@ -1,6 +1,6 @@
 # Python-Manual
-Python Basics Manual - By César Álvarez Llaneza
-#python
+Manual of the Basics of Python - By César Álvarez Llaneza
+
 
 ## Your First Hello World
 The first thing you learn when you start a new programming language if your first “Hello World”. And with Python will not be the exception.
