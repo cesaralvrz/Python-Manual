@@ -1,6 +1,6 @@
 # Python-Manual
 
-![](img/ManualPython.png)
+![](img/PythonManual.png)
 Manual of the Basics of Python - By César Álvarez Llaneza
 
 
