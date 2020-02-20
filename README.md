@@ -12,6 +12,7 @@ Use print to show a text.  Inside the parentheses and citations we introduce the
 
 /Hello World/
 
+
 *NOTE:* We can use “ ” or ‘ ’ it works the same:
 `print("Hello World")`
 
@@ -36,6 +37,7 @@ There’s also /boolean variables/ this are define by a *True* or *False* defini
 
 `female = False`
 
+
 Important things to remember when you’re working with /Strings/:
 * /\n/ - line break 
 `print('Hello \n Good Morning')`
@@ -44,8 +46,10 @@ Important things to remember when you’re working with /Strings/:
 
 /Good Morning/
 
+
 * /\”/ - so the symbol can appear in the print
 `print(‘Hey my name is: \” ‘ +character_name + ‘ \”’)`
+
 /Hey my name is: “ Cesar “/
 
 
