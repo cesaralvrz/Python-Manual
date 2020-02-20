@@ -22,20 +22,24 @@ Use a variable to define a value.  (Use ‘_’ for space between words).
 Variables with characters (/Strings/) use citations (/“ ”/) between them & for numbers don’t.
 
 `character_name = “Cesar”`
+
 `age = 22`
 
 To use variables in /‘print’/ you need to use /‘+’/  to include it.
 `print(‘Hey my name is:’ + character_name)`
+
 /Hey my name is: Cesar/
 
 There’s also /boolean variables/ this are define by a *True* or *False* definition.
 
 `male = True`
+
 `female = False`
 
 Important things to remember when you’re working with /Strings/:
 * /\n/ - line break 
 `print('Hello \n Good Morning')`
+
 /Hello/
 
 /Good Morning/
